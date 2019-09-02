@@ -9,5 +9,5 @@
 
 ## 目录
 
-| --- | --- | --- | --- |
-| 0001 | [Two Sum](https://leetcode-cn.com/problems/two-sum/) | [C++](https://github.com/MappleTT/LeetCode/blob/master/0001-Two-Sun/main.cpp)|
+
+| **基本算法** | C++ |
