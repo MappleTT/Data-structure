@@ -11,4 +11,5 @@
 
 
 | **基本算法** | C++ |
-|快速排序||
+|  -- | -- |
+|快速排序|https://github.com/MappleTT/Data-structure/blob/master/QuickSort/main.cpp|
