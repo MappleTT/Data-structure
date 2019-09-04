@@ -17,7 +17,7 @@
 |稀疏图|[SparaGraph](https://github.com/MappleTT/Data-structure/blob/master/SparaGraph/main.cpp)|
 |稠密图|[DenseGrap](https://github.com/MappleTT/Data-structure/blob/master/DenseGraph/main.cpp)|
 |普里姆算法|[Prime](https://github.com/MappleTT/Data-structure/blob/master/minimum%20spanning%20tree%20Prime/main.cpp)|
-|克鲁斯卡尔算法|[Kruskal](https://github.com/MappleTT/Data-structure/blob/master/minimum spanning tree/main.cpp)|
+|克鲁斯卡尔算法|[Kruskal](https://github.com/MappleTT/Data-structure/blob/master/minimum%20spanning%20tree/main.cpp)|
 |迪杰特斯拉算法|[Dijkstra](https://github.com/MappleTT/Data-structure/blob/master/Dijkstra/main.cpp)|
 |贝尔曼-福特算法|[Bellman-Ford](https://github.com/MappleTT/Data-structure/blob/master/Bellman-Ford/main.cpp)|
 
