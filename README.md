@@ -14,6 +14,8 @@
 |堆排序|[HeapSort](https://github.com/MappleTT/Data-structure/blob/master/HeapSort/main.cpp)|
 |并查集|[Union_Find](https://github.com/MappleTT/Data-structure/blob/master/Union_Find/main.cpp)|
 |二分搜索树|[BST](https://github.com/MappleTT/Data-structure/blob/master/BST/main.cpp)|
+|稀疏图|[SparaGraph](https://github.com/MappleTT/Data-structure/blob/master/SparaGraph/main.cpp)|
+|稠密图|[DenseGrap](https://github.com/MappleTT/Data-structure/blob/master/DenseGraph/main.cpp)|
 
 
 
