@@ -13,3 +13,11 @@
 | **基本算法** | C++ |
 |  -- | -- |
 |快速排序|[QuickSort](https://github.com/MappleTT/Data-structure/blob/master/QuickSort/main.cpp)|
+|归并排序|[MergeSort](https://github.com/MappleTT/Data-structure/blob/master/MergeSort/main.cpp)|
+|堆排序|[HeapSort](https://github.com/MappleTT/Data-structure/blob/master/HeapSort/main.cpp)|
+|并查集|[Union_Find](https://github.com/MappleTT/Data-structure/blob/master/Union_Find/main.cpp)|
+|二分搜索树|[BST](https://github.com/MappleTT/Data-structure/blob/master/BST/main.cpp)|
+
+
+
+
