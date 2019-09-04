@@ -3,9 +3,6 @@
 
 这是我的 **Data-structure** 算法使用C++进行实现
 
-**个人QQ**：
-
-<img src=https://github.com/MappleTT/LeetCode/blob/master/qq.jpg  width=270px height=300px >
 
 ## 目录
 
