@@ -151,6 +151,84 @@ public:
         };
     };
 
+
+    //寻路算法
+    class Path{
+    private:
+        bool *visited;
+        int *from;
+        int s;
+        DenseGraph &G;
+
+        void dfs(int k){
+            visited[k]=true;
+            adjIterator adj(G,k);
+            for(int i=adj.begin();!adj.end();i=adj.next()){
+                if(!visited[i]){
+                    dfs(i);
+                    from[i]=k;
+                }
+            }
+        }
+
+        //查询从s到w的路径，将它们存放在vec数组中
+        void path(int w,vector<int> &vec){
+            assert(hasPath(w));
+            stack<int>s;
+            int p=w;
+            while(p!=-1){
+                s.push(p);
+                p=from[p];
+            }
+            vec.clear();
+            while(!s.empty()){
+                vec.push_back(s.top());
+                s.pop();
+            }
+        }
+
+    public:
+        Path(DenseGraph &g,int s):G(g){
+            assert(s>=0&&s<G.n);
+            visited=new bool [G.V()];
+            from=new int[G.V()];
+            this->s=s;
+            for(int i=0;i<G.n;i++){
+                visited[i]=false;
+                from[i]=-1;
+            }
+            dfs(s);
+        }
+
+
+        ~Path(){
+            delete []visited;
+            delete []from;
+        }
+
+        //查询从s点到w点是否存在路径
+        bool hasPath(int w){
+            assert(w>=0&&w<G.n);
+            return visited[w];
+        }
+
+
+        //打印出从s到w的路径
+        void showPath(int w){
+            assert(hasPath(w));
+            vector<int>vec;
+            path(w,vec);
+            for(int i=0;i<vec.size();i++){
+                cout<<vec[i];
+                if(i!=vec.size()-1){
+                    cout<<"->";
+                }
+            }
+            cout<<endl;
+        }
+
+    };
+
 };
 int main()
 {
